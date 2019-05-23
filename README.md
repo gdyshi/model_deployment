@@ -7,17 +7,19 @@
 
 ## 待写博文列表
 
-- [ ] tensorflow模型部署系列————tensorflow预训练模型导出
-- [ ] tensorflow模型部署系列————tensorflow单机python部署
-- [ ] tensorflow模型部署系列————tensorflow单机c++部署
-- [ ] tensorflow模型部署系列————tensorflow单机java部署
-- [ ] tensorflow模型部署系列————tensorflow嵌入式部署
-- [ ] tensorflow模型部署系列————tensorflow浏览器前端部署
-- [ ] tensorflow模型部署系列————tensorflow独立简单服务器部署
+- [ ] tensorflow模型部署系列————预训练模型导出
+- [ ] tensorflow模型部署系列————单机python部署
+- [ ] tensorflow模型部署系列————单机c++部署
+- [ ] tensorflow模型部署系列————单机java部署
+- [ ] tensorflow模型部署系列————嵌入式部署
+- [ ] tensorflow模型部署系列————浏览器前端部署
+- [ ] tensorflow模型部署系列————独立简单服务器部署
 - [ ] tensorflow模型部署系列————TensorFlow Serving部署
-- [ ] tensorflow模型部署系列————tensorflow分布式服务器部署
+- [ ] tensorflow模型部署系列————分布式服务器部署
 
+## 代码结构
 
+- 预训练模型导出代码`./model`
 
 ## 参考
 ---
