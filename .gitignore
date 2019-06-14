@@ -1,7 +1,0 @@
-/.idea
-/python/__pycache__
-/C++/.idea
-/C++/src/cmake-build-debug
-/C++/src/build
-/C++/lib/libtensorflow.so
-/C++/lib/libtensorflow_framework.so
