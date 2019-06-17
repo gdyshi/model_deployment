@@ -9,7 +9,7 @@
 
 - [x] tensorflow模型部署系列————预训练模型导出
 - [x] tensorflow模型部署系列————单机python部署
-- [ ] tensorflow模型部署系列————单机c++部署
+- [x] tensorflow模型部署系列————单机c++部署
 - [ ] tensorflow模型部署系列————单机java部署
 - [ ] tensorflow模型部署系列————嵌入式部署
 - [ ] tensorflow模型部署系列————浏览器前端部署
