@@ -10,7 +10,11 @@
 - [x] tensorflow模型部署系列————预训练模型导出
 - [x] tensorflow模型部署系列————单机python部署
 - [x] tensorflow模型部署系列————单机c++部署
+<<<<<<< HEAD
 - [x] tensorflow模型部署系列————单机java部署
+=======
+- [ ] tensorflow模型部署系列————单机java部署
+>>>>>>> 5919648d68d50355b34f768d7de325d5a8ef029e
 - [ ] tensorflow模型部署系列————嵌入式部署
 - [ ] tensorflow模型部署系列————浏览器前端部署
 - [ ] tensorflow模型部署系列————独立简单服务器部署
@@ -37,7 +41,7 @@
 - JAVA模型部署代码`./JAVA`
     - 使用官方java库进行模型部署代码`./JAVA/tfapi`
         - keras模型封装库代码`./JAVA/tfapi/JavaModel.java`
-        - 库文件（文件超过100M限制，请自行[下载](https://tensorflow.google.cn/install/lang_java)）`./C++/lib`
+        - 库文件（文件超过100M限制，请自行[下载](https://tensorflow.google.cn/install/lang_java)）`./JAVA/tfapi/jni`
         - keras模型封装库示例代码`./JAVA/tfapi/Example.java`
         - 编译及运行方法`./JAVA/tfapi/readme.md`
     - 自定义jni封装接口进行模型部署代码`./JAVA/capi`
