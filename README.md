@@ -9,8 +9,8 @@
 
 - [x] tensorflow模型部署系列————预训练模型导出
 - [x] tensorflow模型部署系列————单机python部署
-- [ ] tensorflow模型部署系列————单机c++部署
-- [ ] tensorflow模型部署系列————单机java部署
+- [x] tensorflow模型部署系列————单机c++部署
+- [x] tensorflow模型部署系列————单机java部署
 - [ ] tensorflow模型部署系列————嵌入式部署
 - [ ] tensorflow模型部署系列————浏览器前端部署
 - [ ] tensorflow模型部署系列————独立简单服务器部署
@@ -34,6 +34,19 @@
     - tf模型封装库代码`./C++/src/model.cpp`
     - tf模型封装库示例代码`./C++/src/example.cpp`
     - 编译脚本`./C++/src/build.sh`
+- JAVA模型部署代码`./JAVA`
+    - 使用官方java库进行模型部署代码`./JAVA/tfapi`
+        - keras模型封装库代码`./JAVA/tfapi/JavaModel.java`
+        - 库文件（文件超过100M限制，请自行[下载](https://tensorflow.google.cn/install/lang_java)）`./C++/lib`
+        - keras模型封装库示例代码`./JAVA/tfapi/Example.java`
+        - 编译及运行方法`./JAVA/tfapi/readme.md`
+    - 自定义jni封装接口进行模型部署代码`./JAVA/capi`
+        - jni接口封装C代码`./JAVA/capi/jni_adapterc.cpp`
+        - jni接口封装工具代码`./JAVA/capi/jni_utils.cpp`
+        - jni接口封装java代码`./JAVA/capi/JavaModel.java`
+        - tf模型封装库示例代码`./JAVA/capi/Example.java`
+        - 编译脚本`./JAVA/capi/build.sh`
+        - 编译及运行方法`./JAVA/capi/readme.md`
 
 ## 参考
 ---
