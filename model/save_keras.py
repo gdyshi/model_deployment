@@ -14,7 +14,7 @@ x_test = np.reshape(x_test, [-1, 784])
 
 # 构建模型
 model = keras.Sequential(
-    [layers.Dense(64, activation='relu',name='fc1'),
+    [layers.Dense(64, activation='relu',name='fc1',input_shape=(784,)),
      layers.Dense(64, activation='relu',name='fc2'),
      layers.Dense(10, activation='softmax',name='output')])
 model.compile(optimizer='adam',

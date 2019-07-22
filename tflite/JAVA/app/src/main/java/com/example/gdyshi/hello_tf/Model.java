@@ -12,13 +12,13 @@ import java.nio.ByteBuffer;
 import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
 
-public class Model {
+public class Model_keras {
     private final int in_dim = 784;
     private final int out_dim = 10;
     private Interpreter interpreter;
     private ByteBuffer input = null;
     private float[][] output = null;
-    public Model(Activity activity) {
+    public Model_keras(Activity activity) {
         MappedByteBuffer model_buffer= null;
         try {
             model_buffer = loadModelFile(activity,"model.tflite");

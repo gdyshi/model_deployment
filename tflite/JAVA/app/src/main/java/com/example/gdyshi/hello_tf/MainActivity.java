@@ -21,7 +21,7 @@ import java.nio.channels.FileChannel;
 public class MainActivity extends AppCompatActivity {
     private TextView textView;
     private Button button;
-    private Model model=null;
+    private Model_keras model=null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void init_model(){
         if(null == model){
-            model = new Model(this);
+            model = new Model_keras(this);
         }
     }
 
