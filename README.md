@@ -1,5 +1,5 @@
 ## 引言
-本文开始我将要写几篇针对tensorflow系列模型的导出方法和步骤，此文为立贴文。一来确定后续研究路线，二来用于鞭策自己将路线坚持写完。相关示例代码放在[gdyshi的github](https://github.com/gdyshi/model_deployment)上
+本文开始我将要写几篇针对[tensorflow系列模型的部署方法和步骤](https://blog.csdn.net/chongtong/article/category/9290342)，此文为立贴文。一来确定后续研究路线，二来用于鞭策自己将路线坚持写完。相关示例代码放在[gdyshi的github](https://github.com/gdyshi/model_deployment)上
 
 
 ## 研究线路
@@ -10,14 +10,10 @@
 - [x] tensorflow模型部署系列————预训练模型导出
 - [x] tensorflow模型部署系列————单机python部署
 - [x] tensorflow模型部署系列————单机c++部署
-<<<<<<< HEAD
 - [x] tensorflow模型部署系列————单机java部署
-=======
-- [ ] tensorflow模型部署系列————单机java部署
->>>>>>> 5919648d68d50355b34f768d7de325d5a8ef029e
-- [ ] tensorflow模型部署系列————嵌入式部署
-- [ ] tensorflow模型部署系列————浏览器前端部署
-- [ ] tensorflow模型部署系列————独立简单服务器部署
+- [x] tensorflow模型部署系列————嵌入式部署
+- [x] tensorflow模型部署系列————浏览器前端部署
+- [x] tensorflow模型部署系列————独立简单服务器部署
 - [ ] tensorflow模型部署系列————TensorFlow Serving部署
 - [ ] tensorflow模型部署系列————分布式服务器部署
 
