@@ -21,6 +21,10 @@
 // LIABILITY, WHETHER IN AN ACTION OF  CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE  OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #define INPUT_SIZE  (784)//输入维度
 #define OUTPUT_SIZE  (10)//输出维度
 
@@ -29,5 +33,9 @@ int model_init(char * pb_path);
 int model_deinit();
 
 int model_inference(float *input_vals, float *output_vals);
+
+#ifdef __cplusplus
+};
+#endif
 
 #endif //HELLO_TF_LIB_H
